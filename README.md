@@ -91,6 +91,11 @@ sudo docker run --runtime nvidia -it --rm --network host nvcr.io/nvidia/dli/dli-
 ![image](https://github.com/user-attachments/assets/29ab273a-8148-41c4-b692-def853d9723e)
 
 After running, you'll receive a URL with an IP address to access Jupyter Notebook. Open this link in your browser, enter the password, and you should be able to access the deep learning course notebooks.
+> Note: If you are facing problem while running the jupyter lab it is bacause this deep learning course is for camera so attach the camera with jetson nano and enter the ip address which you have entered in putty with :8888 like this below
+
+```bash
+192.168.XX.XX:8888
+```
 ![image](https://github.com/user-attachments/assets/d2258841-2170-4dbb-bf22-e515b98d554a)
 ![e0ce5f0a3ef2d482d485e7f0df89aa0a](https://github.com/user-attachments/assets/04d6fc65-e759-4efa-aa29-b11f2055f481)
 
